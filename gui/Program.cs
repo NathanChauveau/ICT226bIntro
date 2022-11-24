@@ -15,10 +15,16 @@ namespace Model
             A a = new A();
             B b = new B();
             C c = new C();
+            D d = new D();
 
             Console.WriteLine(a.ToString());
             Console.WriteLine(b.ToString());
             Console.WriteLine(c.ToString());
+
+            Console.WriteLine(a.Oneday());
+            Console.WriteLine(b.Oneday());
+            Console.WriteLine(c.Oneday());
+            Console.WriteLine(d.Oneday());
 
 
 
